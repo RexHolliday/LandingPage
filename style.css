@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header-logo, .header-link {
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 10px 30px 5px;
+}
+
+nav a {
+    color: #f9faf8;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    background-color: #1F2937;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.one {
+background-color: #1F2937;
+color: #E5E7EB;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 10px;
+margin-top: 100px;
+padding: 50px;
+gap: 10px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
+    margin: 10px;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    color: #f9faf8;
+}
+
+
+.button {
+    background-color: #3882f6;
+    border-radius: .25rem;
+    color: #f9faf8;
+    border-style: hidden;
+    border-color: #f9faf8;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+.button-sign {
+    background-color: #3882f6;
+    border-radius: .25rem;
+    color: #f9faf8;
+    border-style: groove;
+    border-color: #f9faf8;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937
+}
+
+.information {
+    background-color: #f9faf8;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    padding: 50px;
+}
+
+.sign-up-container {
+    height: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border-radius: 7px;
+    width: 50%;
+    height: 50%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+.sign-item {
+    color: #f9faf8;
+}
+
+footer {
+    position: relative;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
